@@ -553,7 +553,6 @@ footer .column:nth-child(3) {
 }
 
 footer ul li {
-    text-decoration: underline;
     list-style: none;
 }
 
@@ -562,6 +561,6 @@ footer ul ul li {
 }
 
 footer ul ul li a{
-    text-decoration: solid underline;
+    text-decoration: solid;
     color: black;
 }
