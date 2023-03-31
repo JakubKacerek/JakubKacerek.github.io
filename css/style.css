@@ -384,8 +384,6 @@ a {
 @media (max-width:600px){
     #layout {
         grid-auto-rows: 300px;
-        grid-template-columns: 2;
-        grid-template-rows: 6;
         grid-gap: 10px;
     }
     
