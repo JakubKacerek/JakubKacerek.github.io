@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../sp/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar">
+                    <a href="index.html" class="nav-brand">TWS</a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacts.html" class="nav-link">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="works.html" class="nav-link">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="random.html" class="nav-link">Random</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="subcontainer">
+                <h1>Jakub Káčerek</h1>
+                <h2><span class="auto_type"></span></h2>
+            </div>
+        </div>
+    </section>
+    <section id="geolocation">
+        <div class="container">
+            <div class="subcontainer">
+                <button type="button" id="showPosition">Moje pozice</button>
+                <div id="result"></div>
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="column">
+                <ul>
+                    <li>
+                        <h3>Validace</h3>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">HTML</a>
+                        </li>
+                        <li>
+                            <a href="#">WCAG 2.0</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>&copy; Jakub Káčerek</h4>
+                <h5>All rights reserved.</h5>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>
+                        <h3>Links</h3>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html" class="nav-link">Contacts</a>
+                            </li>
+                            <li>
+                                <a href="works.html" class="nav-link">Works</a>
+                            </li>
+                            <li>
+                                <a href="random.html" class="nav-link">Random</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../sp/js/script.js"></script>
+</body>
+
+</html>

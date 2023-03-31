@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../sp/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar">
+                    <a href="index.html" class="nav-brand">TWS</a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacts.html" class="nav-link">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="works.html" class="nav-link">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="random.html" class="nav-link">Random</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="works">
+        <div class="container">
+            <div class="subcontainer">
+                <h1>Here are some of my works:</h1>
+                <hr>
+                <div id="layout">
+                    <div class="one" onclick="location.href='https://www.semikovos.cz/';" style="cursor: pointer;">
+                        <h2>Website</h2><br>
+                        <figure>
+                            <img src="../sp/images/tile_1.jpg">
+                        </figure>
+                        <h3>
+                            Semikovos s.r.o.
+                        </h3>
+                        <hr>
+                        <div class="text_left">
+                            <p>
+                                Fully responvise one-page layout web using Bootstrap4.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="text_right">
+                            <p>
+                                Just a simple website created for a friend's firm.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h2>Program</h2>
+                        <hr>
+                        <div class="text_left">
+                            <p>
+                                Currently I am working on a facial detection / recognition.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="text_right">
+                            <p>
+                                Program runs mostly using Python3.10, with the usage of OpenCV2 and dlib libraries.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="text_left">
+                            <p>
+                                In the end, the program should be able to recognize a celebrity from an image given by the user.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="three"  onclick="location.href='https://jakubkacerek.github.io/';" style="cursor: pointer;">
+                        <h2>Website</h2><br>
+                        <figure>
+                            <img src="../sp/images/tile_2.jpg">
+                        </figure>
+                        <h3>
+                            Jakub Káčerek
+                        </h3>
+                        <hr>
+                        <div class="text_left">
+                            <p>
+                                Fully responvise one-page layout web using Bootstrap4.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="text_right">
+                            <p>
+                                Just a simple website created for a purpose of electronic portfolio.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="four">
+                        <h2>Placeholder</h2>
+                        <h4 class="subtitle">Lorem ipsum</h4>
+                    </div>
+                </div>
+                <hr>
+                <h2>Here are some of my tools that I use:</h2>
+                <table id="table">
+                    <thead>
+                    <tr>
+                        <th colspan="4">Lorem ipsum</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Category</th>
+                        <th rowspan="2">Usage</th>
+                        <th colspan="2">Application</th>
+                    </tr>
+                    <tr>
+                        <th>Industry</th>
+                        <th>Academia</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td rowspan="3">Programming</td>
+                        <td>Desktop applications</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile applications</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <td>Web applications</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h3>
+                    Did something interest you?
+                </h3>
+                <p>
+                    Do you want to work with me? Do you want any of my services?
+                </p>
+                <p>
+                    Just click <a href="../sp/contacts.html#cont" style="color:red"><b>ME</b></a> and contact me!
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="column">
+                <ul>
+                    <li>
+                        <h3>Validace</h3>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">HTML</a>
+                        </li>
+                        <li>
+                            <a href="#">WCAG 2.0</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>&copy; Jakub Káčerek</h4>
+                <h5>All rights reserved.</h5>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>
+                        <h3>Links</h3>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html" class="nav-link">Contacts</a>
+                            </li>
+                            <li>
+                                <a href="works.html" class="nav-link">Works</a>
+                            </li>
+                            <li>
+                                <a href="random.html" class="nav-link">Random</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../sp/js/script.js"></script>
+</body>
+
+</html>
